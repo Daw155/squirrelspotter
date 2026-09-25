@@ -1,0 +1,17 @@
+[project]
+name = "squirrelspotter-server"
+version = "1.0.0"
+description = "FastAPI backend for SquirrelSpotter"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.115",
+    "python-dotenv>=1.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["app"]
