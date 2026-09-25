@@ -1,3 +1,4 @@
+# Deploys the static client to GitHub Pages when client files change or manually triggered.
 name: Deploy client to GitHub Pages
 
 on:

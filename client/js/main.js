@@ -1,3 +1,4 @@
+// Connects the page UI to the API and displays the current health status.
 import { getHealth } from "./api.js";
 
 const apiStatusElement = document.querySelector("#api-status");

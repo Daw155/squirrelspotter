@@ -1,3 +1,4 @@
+// Provides browser-side requests to the SquirrelSpotter backend.
 import { API_BASE_URL } from "./config.js";
 
 export async function getHealth() {

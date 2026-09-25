@@ -1,3 +1,5 @@
+"""Create the FastAPI application and register middleware and routers."""
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 

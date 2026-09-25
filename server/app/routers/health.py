@@ -1,3 +1,5 @@
+"""Expose the backend health-check endpoint."""
+
 from fastapi import APIRouter
 
 router = APIRouter(prefix="/api", tags=["health"])

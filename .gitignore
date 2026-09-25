@@ -1,3 +1,4 @@
+# Keeps local environments, generated files, secrets, and editor data out of Git.
 # --- Environment / secrets ---
 .env
 .env.*

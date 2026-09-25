@@ -1,4 +1,6 @@
 [project]
+[project]
+# Defines backend metadata, dependencies, commands, and package build settings.
 name = "squirrelspotter-server"
 version = "1.0.0"
 description = "FastAPI backend for SquirrelSpotter"
@@ -8,6 +10,9 @@ dependencies = [
     "fastapi[standard]>=0.115",
     "python-dotenv>=1.0",
 ]
+
+[project.scripts]
+start = "app.cli:main"
 
 [build-system]
 requires = ["hatchling"]

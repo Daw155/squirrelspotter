@@ -1,3 +1,4 @@
+<!-- Project overview and local setup instructions for the full-stack app. -->
 # squirrelspotter
 
 SquirrelSpotter is a full-stack app for sharing squirrel sightings from the community.
@@ -15,8 +16,7 @@ Open a terminal in the repo root and run:
 ```sh
 cd server
 uv sync
-cp .env.example .env
-uv run fastapi dev app/main.py
+uv run start
 ```
 
 This starts the backend on:
@@ -30,7 +30,7 @@ Open a second terminal and run:
 
 ```sh
 cd client
-python3 -m http.server 3000
+./start.sh
 ```
 
 Then open:

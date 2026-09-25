@@ -1,8 +1,6 @@
-// Public config. Everything here is visible to anyone who visits the site, so never put secrets in it.
-
+// Selects the backend URL for local or deployed use; values here are public, never secrets.
 const isLocalhost = ["localhost", "127.0.0.1"].includes(window.location.hostname);
 
-// TODO: replace with the deployed backend URL once it's hosted.
-const PRODUCTION_API_BASE_URL = "";
+const PRODUCTION_API_BASE_URL = "https://squirrelspotter-qu1l.onrender.com";
 
 export const API_BASE_URL = isLocalhost ? "http://localhost:8080" : PRODUCTION_API_BASE_URL;

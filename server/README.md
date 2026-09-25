@@ -1,3 +1,4 @@
+<!-- Backend overview and API documentation guidance. -->
 # squirrelspotter-server
 
 FastAPI backend for SquirrelSpotter. See the [root README](../README.md) for setup.
